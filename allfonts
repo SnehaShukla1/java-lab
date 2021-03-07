@@ -21,7 +21,7 @@ class allFonts extends Frame {
         Font font1 = new Font("TimesRoman",Font.PLAIN,25);
         g.setFont(font1);
         g.setColor(Color.yellow);
-        g.drawString("list of all fonts available in java awt :", 30, 50);
+        g.drawString("list of all fonts available:", 30, 50);
         setLayout(new FlowLayout());
         GraphicsEnvironment ge;
         ge = GraphicsEnvironment.getLocalGraphicsEnvironment();
