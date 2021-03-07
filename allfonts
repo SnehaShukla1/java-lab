@@ -20,13 +20,13 @@ class allFonts extends Frame {
     public void paint(Graphics g){
         Font font1 = new Font("TimesRoman",Font.PLAIN,25);
         g.setFont(font1);
-        g.setColor(Color.RED);
+        g.setColor(Color.yellow);
         g.drawString("list of all fonts available in java awt :", 30, 50);
         setLayout(new FlowLayout());
         GraphicsEnvironment ge;
         ge = GraphicsEnvironment.getLocalGraphicsEnvironment();
         String[] names = ge.getAvailableFontFamilyNames();
-        g.setColor(Color.ORANGE);
+        g.setColor(Color.blue);
         for (int i = 0,y=85; i < names.length; i++,y+=20) {
 
             Font font = new Font(names[i],Font.PLAIN,20);
